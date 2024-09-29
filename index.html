@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance</title>
+    <style type="text/css"> 
+        body {
+            text-align: center; 
+            padding: 50px;
+            font: 20px Helvetica, sans-serif;
+            color: #FFFFFF;
+            background-color: #151B54;
+            margin: 0;
+        }
+        
+        .img {
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .article { 
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        .article h1 {
+            font-size: 2.5em;
+        }
+
+        .text {
+            margin-top: 2rem;
+        }
+
+        .text h1 {
+            font-size: 1.5em;
+            color: tomato;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            .article h1 {
+                font-size: 1.8em;
+            }
+
+            .text h1 {
+                font-size: 1.2em;
+            }
+        }
+
+        @media (max-width: 426px) {
+            body {
+                padding: 10px; 
+            }
+
+            .article h1 {
+                font-size: 1.5em;
+            }
+
+            .text h1 {
+                font-size: 1em;
+            }
+
+            img{
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="image.png" alt="Under Maintenance" style="max-width: 100%;">
+    </div>
+
+    <div class="article">
+        <h1>Our website is undergoing some maintenance. We'll be back soon.</h1>
+
+        <div class="text">
+            <h1>We thank you for your patience and hope to see you soon!</h1> 
+            <p>— Zaixs Apparel</p>
+        </div>
+    </div>
+</body>
+</html>
